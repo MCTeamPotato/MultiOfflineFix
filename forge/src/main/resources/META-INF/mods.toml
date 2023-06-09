@@ -6,7 +6,7 @@ license = "LGPLv2.1"
 [[mods]]
 modId = "multiofflinefix"
 version = "${version}"
-displayName = "MultiOfflineFix Mod"
+displayName = "MultiOfflineFix"
 displayURL = "https://github.com/MCTeamPotato/MultiOfflineFix"
 authors = "MCTeampotato, Awei"
 description = '''

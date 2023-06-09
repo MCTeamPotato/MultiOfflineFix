@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "multiofflinefix",
   "version": "${version}",
-  "name": "MultiOfflineFix Mod",
+  "name": "MultiOfflineFix",
   "description": "Fix the issue where offline mode players cannot join multiplayer games",
   "authors": [
     "MCTeamPotato",
