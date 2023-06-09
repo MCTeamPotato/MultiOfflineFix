@@ -19,7 +19,7 @@ loom {
     }
 }
 
-project.archivesBaseName = rootProject.archivesBaseName + "-Forge"
+project.archivesBaseName = rootProject.archivesBaseName + "-forge"
 
 configurations {
     common
@@ -31,7 +31,6 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
-    modApi "me.shedaniel:architectury-forge:${rootProject.architectury_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionForge")) { transitive = false }
