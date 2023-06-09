@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "multiofflinefix-common.mixins.json"
-        mixinConfig "multiofflinefix.forge.mixins.json"
+        mixinConfig "multiofflinefix-common.mixin.json"
+        mixinConfig "multiofflinefix.forge.mixin.json"
     }
 }
 

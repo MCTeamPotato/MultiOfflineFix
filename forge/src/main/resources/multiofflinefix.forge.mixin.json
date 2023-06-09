@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "team.teampotato.forge.MultiOfflineFix.mixin",
+  "package": "team.teampotato.multiofflinefix.forge.mixin",
   "compatibilityLevel": "JAVA_8",
   "minVersion": "0.8",
   "client": [
