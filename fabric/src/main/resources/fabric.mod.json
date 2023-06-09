@@ -5,8 +5,7 @@
   "name": "MultiOfflineFix",
   "description": "Fix the issue where offline mode players cannot join multiplayer games",
   "authors": [
-    "MCTeamPotato",
-    "Awei"
+    "MCTeamPotato", "Awei", "TexTrue"
   ],
   "contact": {
     "homepage": "https://github.com/MCTeamPotato/MultiOfflineFix",

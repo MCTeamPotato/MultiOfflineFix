@@ -8,7 +8,7 @@ modId = "multiofflinefix"
 version = "${version}"
 displayName = "MultiOfflineFix"
 displayURL = "https://github.com/MCTeamPotato/MultiOfflineFix"
-authors = "MCTeampotato, Awei"
+authors = "MCTeampotato, Awei, TexTrue"
 description = '''
 Fix the issue where offline mode players cannot join multiplayer games
 '''
