@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "team.teampotato.fabric.MultiOfflineFix.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "client": [
+    "MultiOfflineFixFabricMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

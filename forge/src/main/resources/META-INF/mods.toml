@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+#issueTrackerURL = ""
+license = "LGPL"
+
+[[mods]]
+modId = "multiofflinefix"
+version = "${version}"
+displayName = "MultiOfflineFix Mod"
+authors = '''
+MCTeampotato
+Awei
+'''
+description = '''
+Fix the issue where offline mode players cannot join multiplayer games
+'''
+logoFile = "moficon.png"
+
+[[dependencies.multiofflinefix]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[dependencies.multiofflinefix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.multiofflinefix]]
+modId = "architectury"
+mandatory = true
+versionRange = "[1.32.67,)"
+ordering = "AFTER"
+side = "BOTH"

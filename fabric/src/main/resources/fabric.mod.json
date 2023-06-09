@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "multiofflinefix",
+  "version": "${version}",
+  "name": "MultiOfflineFix Mod",
+  "description": "Fix the issue where offline mode players cannot join multiplayer games",
+  "authors": [
+    "MCTeamPotato",
+    "Awei"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "LGPL",
+  "icon": "assets/multiofflinefix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "team.teampotato.fabric.MultiOfflineFix.MultiOfflineFixModFabric"
+    ]
+  },
+  "mixins": [
+    "MultiOfflineFix.mixin.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.16.5",
+    "architectury": ">=1.32.67"
+  }
+}
