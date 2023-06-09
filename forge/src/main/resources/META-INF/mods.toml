@@ -1,20 +1,18 @@
 modLoader = "javafml"
 loaderVersion = "[36,)"
 #issueTrackerURL = ""
-license = "LGPL"
+license = "LGPLv2.1"
 
 [[mods]]
 modId = "multiofflinefix"
 version = "${version}"
 displayName = "MultiOfflineFix Mod"
-authors = '''
-MCTeampotato
-Awei
-'''
+displayURL = "https://github.com/MCTeamPotato/MultiOfflineFix"
+authors = "MCTeampotato, Awei"
 description = '''
 Fix the issue where offline mode players cannot join multiplayer games
 '''
-logoFile = "moficon.png"
+logoFile = "icon.png"
 
 [[dependencies.multiofflinefix]]
 modId = "forge"
@@ -34,6 +32,6 @@ side = "BOTH"
 [[dependencies.multiofflinefix]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.32.67,)"
+versionRange = "[1,)"
 ordering = "AFTER"
 side = "BOTH"

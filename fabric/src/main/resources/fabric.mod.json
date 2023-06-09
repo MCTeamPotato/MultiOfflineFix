@@ -9,23 +9,23 @@
     "Awei"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/MCTeamPotato/MultiOfflineFix",
+    "sources": "https://github.com/MCTeamPotato/MultiOfflineFix"
   },
-  "license": "LGPL",
-  "icon": "assets/multiofflinefix/icon.png",
+  "license": "LGPLv2.1",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "team.teampotato.fabric.MultiOfflineFix.MultiOfflineFixModFabric"
+      "team.teampotato.multiofflinefix.fabric.MultiOfflineFixModFabric"
     ]
   },
   "mixins": [
-    "MultiOfflineFix.mixin.json"
+    "multiofflinefix.fabric.mixin.json"
   ],
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.16.5",
-    "architectury": ">=1.32.67"
+    "architectury": ">=1.x"
   }
 }

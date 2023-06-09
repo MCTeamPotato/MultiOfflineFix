@@ -1,6 +1,6 @@
-package team.teampotato.fabric.MultiOfflineFix;
+package team.teampotato.multiofflinefix.fabric;
 
-import team.teampotato.common.MultiOfflineFix.MultiOfflineFix;
+import team.teampotato.multiofflinefix.MultiOfflineFix;
 import net.fabricmc.api.ModInitializer;
 
 public class MultiOfflineFixModFabric implements ModInitializer {

@@ -14,8 +14,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "MultiOfflineFix-common.mixins.json"
-        mixinConfig "MultiOfflineFix.mixins.json"
+        mixinConfig "multiofflinefix-common.mixins.json"
+        mixinConfig "multiofflinefix.forge.mixins.json"
     }
 }
 
@@ -29,7 +29,6 @@ configurations {
 
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
-    // Remove the next line if you don't want to depend on the API
     modApi "me.shedaniel:architectury-forge:${rootProject.architectury_version}"
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
