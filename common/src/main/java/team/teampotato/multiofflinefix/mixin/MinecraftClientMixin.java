@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(value = Minecraft.class)
 public class MinecraftClientMixin {
-    private SocialInteractionsService SocialInteractionsService;
+    //private SocialInteractionsService SocialInteractionsService;
     @Inject(at = @At("HEAD"),method = "allowsMultiplayer",cancellable = true)
     public void Multiplayer(CallbackInfoReturnable<Boolean> callbackInfo) {
         callbackInfo.setReturnValue(true);

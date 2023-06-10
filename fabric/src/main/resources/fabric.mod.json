@@ -20,7 +20,7 @@
     ]
   },
   "mixins": [
-    "multiofflinefix.fabric.mixin.json"
+    "multiofflinefix.common.mixin.json"
   ],
   "depends": {
     "fabric": "*",
