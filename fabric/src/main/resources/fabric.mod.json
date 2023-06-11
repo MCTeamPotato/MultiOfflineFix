@@ -8,7 +8,7 @@
     "MCTeamPotato", "Awei", "TexTrue"
   ],
   "contact": {
-    "homepage": "https://github.com/MCTeamPotato/MultiOfflineFix",
+    "homepage": "https://github.com/MCTeamPotato",
     "sources": "https://github.com/MCTeamPotato/MultiOfflineFix"
   },
   "license": "LGPLv2.1",
@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "team.teampotato.multiofflinefix.fabric.MultiOfflineFixModFabric"
+      "team.teampotato.multiofflinefix.fabric.MultiOfflineFixFabric"
     ]
   },
   "mixins": [

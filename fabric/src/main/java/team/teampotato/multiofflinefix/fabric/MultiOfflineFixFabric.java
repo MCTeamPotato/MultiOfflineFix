@@ -5,7 +5,7 @@ import net.fabricmc.api.ModInitializer;
 
 import team.teampotato.multiofflinefix.MultiOfflineFix;
 
-public class MultiOfflineFixModFabric implements ModInitializer {
+public class MultiOfflineFixFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         MultiOfflineFix.init();

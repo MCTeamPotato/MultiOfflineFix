@@ -10,12 +10,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(Minecraft.class)
 public class MinecraftClientMixin {
     @Inject(at = @At("HEAD"),method = "allowsMultiplayer",cancellable = true)
-    public void Multiplayer(CallbackInfoReturnable<Boolean> callbackInfo) {
+    public void multiplayer(CallbackInfoReturnable<Boolean> callbackInfo) {
         callbackInfo.setReturnValue(true);
         callbackInfo.cancel();
     }
     @Inject(at = @At("HEAD"),method = "allowsChat",cancellable = true)
-    public void Chat(CallbackInfoReturnable<Boolean> callbackInfo) {
+    public void chat(CallbackInfoReturnable<Boolean> callbackInfo) {
         callbackInfo.setReturnValue(true);
         callbackInfo.cancel();
     }
