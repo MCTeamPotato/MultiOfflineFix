@@ -12,7 +12,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(MinecraftClient.class)
 public class MinecraftClientMixin {
 
-
     @Inject(at = @At("HEAD"), method = "isMultiplayerEnabled", cancellable = true)
     private void allowMultiplayer(CallbackInfoReturnable<Boolean> info) {
         info.setReturnValue(true);
