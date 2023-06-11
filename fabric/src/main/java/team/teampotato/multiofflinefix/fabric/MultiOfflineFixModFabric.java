@@ -1,7 +1,9 @@
 package team.teampotato.multiofflinefix.fabric;
 
-import team.teampotato.multiofflinefix.MultiOfflineFix;
+
 import net.fabricmc.api.ModInitializer;
+
+import team.teampotato.multiofflinefix.MultiOfflineFix;
 
 public class MultiOfflineFixModFabric implements ModInitializer {
     @Override
