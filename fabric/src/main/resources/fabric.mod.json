@@ -23,6 +23,6 @@
     "multiofflinefix.common.mixin.json"
   ],
   "depends": {
-    "minecraft": ">=1.16.5"
+    "minecraft": "*"
   }
 }
